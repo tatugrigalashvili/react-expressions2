@@ -7,7 +7,7 @@ function App() {
     <React.Fragment>
       <button onClick={() => setNumber(number + 2)}>Click</button>
       {
-        console.log(number)
+        <p>{number}</p>
       }
     </React.Fragment>
   )
